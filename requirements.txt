@@ -1,5 +1,6 @@
 Gestión de Dependencias del Proyecto
-Esta sección lista e instala todas las librerías Python necesarias para ejecutar este notebook. Es una buena práctica para asegurar la reproducibilidad del entorno. Si estás ejecutando esto en un entorno nuevo, ejecuta esta celda primero.
+Esta sección lista e instala todas las librerías Python necesarias para ejecutar este notebook. Es una buena práctica para asegurar la reproducibilidad del entorno. 
+Si estás ejecutando esto en un entorno nuevo, ejecuta esta celda primero.
 
 
 # Instalar librerías necesarias
@@ -10,3 +11,10 @@ Esta sección lista e instala todas las librerías Python necesarias para ejecut
 !pip install scikit-learn==1.2.2
 !pip install imbalanced-learn==0.10.1
 !pip install shap==0.41.0
+
+
+# Instalar librerías necesarias. Se eliminan las versiones para las librerías principales para evitar conflictos con las versiones preinstaladas en Colab.
+!pip install imbalanced-learn==0.10.1
+!pip install shap==0.41.0
+# Para las librerías como pandas, seaborn, matplotlib, numpy y scikit-learn, se recomienda usar las versiones preinstaladas en Colab
+# a menos que haya una razón muy específica para una versión anterior o posterior que no cause conflictos.
