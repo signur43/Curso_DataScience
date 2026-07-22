@@ -27,12 +27,12 @@ Inspección de Salidas: Revise las salidas de cada celda, incluyendo gráficos, 
 Dependencias
 Este cuaderno utiliza las siguientes bibliotecas de Python. Asegúrese de tenerlas instaladas en su entorno:
 
-pandas
-numpy
-matplotlib
-seaborn
-sklearn (scikit-learn)
-shap
+pandas,
+numpy,
+matplotlib,
+seaborn,
+sklearn (scikit-learn),
+shap,
 Si usa Google Colab, estas bibliotecas generalmente vienen preinstaladas. De lo contrario, puede instalarlas usando pip:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
