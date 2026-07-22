@@ -32,6 +32,7 @@ numpy
 matplotlib
 seaborn
 sklearn (scikit-learn)
+shap
 Si usa Google Colab, estas bibliotecas generalmente vienen preinstaladas. De lo contrario, puede instalarlas usando pip:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
